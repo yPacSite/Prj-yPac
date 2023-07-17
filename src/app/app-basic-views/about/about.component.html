@@ -1,0 +1,120 @@
+<app-ng-bootstrap-carousel></app-ng-bootstrap-carousel>
+
+<div class="bg-light">
+    <div class="welcome-messsage ">
+        <p><b>ABOUT US</b></p>
+        <p>OUR BACKGROUND, OUR VISION, & OUR MISSION.</p>
+        
+        <div class="social-buttons-aligner">
+            <app-share-this-buttons></app-share-this-buttons>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="row page-content">
+
+    <div class="col-md-9">
+
+        <div class="page-content-container">
+            
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+
+                            <fa-icon class="concept-icon" [icon]="['fas', 'business-time']"></fa-icon>&nbsp;
+                            COMPANY BACKGROUND
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <b>yPac</b> is an IT services provider, established in 2015. 
+                            The company emerged after idenfiying the need for servicing the emerging Informal, Small, Medium, and Micro Enterprises <b>(SMME)</b> 
+                            with IT-related services. The objective is to offer digital IT services as an enabler, for SMME to operate their businesses in a digital space.
+
+                            <!-- <share-buttons theme="modern-dark"
+                                [include]="['copy', 'facebook', 'email', 'messenger', 'mix', 'line', 'linkedin', 'pinterest', 'print', 'reddit', 'sms', 'telegram', 'tumblr', 'twitter', 'viber', 'vk', 'xing', 'whatsapp']"
+                                [exclude]="['pinterest','reddit','tumblr','mix','viber','vk','telegram','xing','line']" [show]="3" [showIcon]="true"
+                                [showText]="false" url="https://twitter.com/" description="yPac -IT Services" twitterAccount="rodrigokamada"
+                                class="pt-5">
+                            </share-buttons> -->
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+
+                            <fa-icon class="concept-icon" [icon]="['fas', 'user-tie']"></fa-icon>&nbsp;
+                           ABOUT THE FOUNDER
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Yingisani is a <b>qualified IT professional</b> who has a strong passion for <b>IT</b>, particularly in programming, 
+                                who enjoys developing web-based applications using technologies such in C#, ASP.NET core, .NET API core,
+                            Angular 15+, Resposive UI (HTML5, CSS3, Bootstrap 5.3+), and Content Management Systems (CMS).</p>
+                            <p>From academic perspective, Yingisani is a <b>B.Sc. Honours in Computing</b> graduate who has acquired vast knowledge related to web technologies from various formal training institutions (UJ, TUT, and UNISA).</p>
+                            <p>Yingisani is also an accredited <b>Data Analyst</b> (Python and Panda), from Cambridge Spark.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+
+                            <fa-icon class="concept-icon" [icon]="['fas', 'crosshairs']"></fa-icon>&nbsp;
+                            OUR VISION
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            We are committed to ensure that basic IT services for businesses ( busness domain setup and configurations, web design and development, and systems administration ) 
+                            are always available, easily accessible, and affordable to SMME at all times and at a reasonable rates.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+
+                            <fa-icon class="concept-icon" [icon]="['fas', 'gears']"></fa-icon>&nbsp;
+                            OUR MISSION
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">   
+                            <p>We have the professionally trained staff, equiped with right knowledge and skills to perform their duties and responsibilities effectively, which promotes the delivery of quality projects (services) as per terms and conditions our clients.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+<div class="col-md-3">
+    <app-sidebar></app-sidebar>
+</div>
+
+</div>
